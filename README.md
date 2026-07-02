@@ -45,7 +45,20 @@ criar uma lógica de um jogo de vídeo game para simular corridas de Mario Kart 
                 <p>Manobrabilidade: 4</p>
                 <p>Poder: 3</p>
             </td>
+        
+
+            <td style="border: 1px solid black; text-align: center;">
+                <p>Donkey Kong</p>
+                <img src="./docs/dk.gif" alt="Mario Kart" width="60" height="60">
+            </td>
+            <td style="border: 1px solid black; text-align: center;">
+                <p>Velocidade: 2</p>
+                <p>Manobrabilidade: 2</p>
+                <p>Poder: 5</p>
+            </td>
         </tr>
+
+
         <tr>
             <td style="border: 1px solid black; text-align: center;">
                 <p>Bowser</p>
@@ -74,6 +87,16 @@ criar uma lógica de um jogo de vídeo game para simular corridas de Mario Kart 
                 <p>Manobrabilidade: 2</p>
                 <p>Poder: 5</p>
             </td>
+
+            <td style="border: 1px solid black; text-align: center;">
+                <p>Donkey Kong</p>
+                <img src="./docs/dk.gif" alt="Mario Kart" width="60" height="60">
+            </td>
+            <td style="border: 1px solid black; text-align: center;">
+                <p>Velocidade: 2</p>
+                <p>Manobrabilidade: 2</p>
+                <p>Poder: 5</p>
+            </td>
         </tr>
     </table>
 
@@ -84,7 +107,7 @@ criar uma lógica de um jogo de vídeo game para simular corridas de Mario Kart 
 <b>Jogadores:</b>
 
 <input type="checkbox" id="jogadores-item" />
-<label for="jogadores-item">O Computador deve receber dois personagens para disputar a corrida em um objeto cada</label>
+<label for="jogadores-item">O Computador listas todos os personagens para disputar a corrida em um objeto cada</label>
 
 <b>Pistas:</b>
 
@@ -96,6 +119,11 @@ criar uma lógica de um jogo de vídeo game para simular corridas de Mario Kart 
       <li><input type="checkbox" id="pistas-2-2-item" /> <label for="pistas-2-2-item">Caso o bloco da pista seja uma CURVA, o jogador deve jogar um dado de 6 lados e somar o atributo MANOBRABILIDADE, quem vencer ganha um ponto</label></li>
       <li><input type="checkbox" id="pistas-2-3-item" /> <label for="pistas-2-3-item">Caso o bloco da pista seja um CONFRONTO, o jogador deve jogar um dado de 6 lados e somar o atributo PODER, quem perder, perde um ponto</label></li>
       <li><input type="checkbox" id="pistas-2-3-item" /> <label for="pistas-2-3-item">Nenhum jogador pode ter pontuação negativa (valores abaixo de 0)</label></li>
+
+      <li><input type="checkbox" id="pistas-2-3-item" /> <label for="pistas-2-3-item">Sortear aleatoriamente entre: 🐢 Casco → perde 1 ponto | 💣 Bomba → perde 2 pontos  </label></li>
+
+      <li><input type="checkbox" id="pistas-2-3-item" /> <label for="pistas-2-3-item">Quem vencer o confronto ganha um Turbo → +1 ponto</label></li>
+
     </ul>
   </li>
 </ul>
