@@ -47,6 +47,13 @@ const personagens = [
         MANOBRABILIDADE: 2,
         PODER: 5,
         PONTOS: 0,
+    },
+        {
+        NOME: "Bowser Jr.",
+        VELOCIDADE: 3,
+        MANOBRABILIDADE: 2,
+        PODER: 3,
+        PONTOS: 0,
     }
 ]
 
